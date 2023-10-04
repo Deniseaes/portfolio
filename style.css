@@ -1,0 +1,419 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pagBienvenida {
+  height: 100vh;
+  background-image: url("https://www.meme-arsenal.com/memes/623bc3633bd0aa52b646b7951c42e1aa.jpg");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+}
+
+.cabecera_menu {
+  position: absolute;
+  position: fixed;
+  background-color: #884299;
+  height: 90px;
+  width: 100%;
+  border: 4px solid #2b064d;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.bottonQuienSoy {
+  color: white;
+  position: absolute;
+  position: fixed;
+  top: 4%;
+  left: 15%;
+  background-color: rgba(95, 158, 160, 0.5);
+  height: 42px;
+  width: 220px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+  border: 3px solid #4adbef;
+  font-size: 25px;
+  font-family: "Ubuntu";
+  z-index: 1000;
+}
+
+.bottonProyectos {
+  position: absolute;
+  position: fixed;
+  top: 4%;
+  left: 35%;
+  background-color: rgba(95, 158, 160, 0.5);
+  height: 42px;
+  width: 220px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+  border: 3px solid #4adbef;
+  font-size: 25px;
+  font-family: "Ubuntu";
+  color: white;
+  z-index: 1000;
+}
+
+.bottonServicios {
+  position: absolute;
+  position: fixed;
+  top: 4%;
+  left: 54%;
+  background-color: rgba(95, 158, 160, 0.5);
+  height: 42px;
+  width: 220px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+  border: 3px solid #4adbef;
+  font-size: 25px;
+  font-family: "Ubuntu";
+  color: white;
+  z-index: 1000;
+}
+.bottonContacto {
+  position: absolute;
+  position: fixed;
+  top: 4%;
+  left: 74%;
+  background-color: rgba(95, 158, 160, 0.5);
+  height: 42px;
+  width: 220px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+  border: 3px solid #4adbef;
+  font-size: 25px;
+  font-family: "Ubuntu";
+  color: white;
+  z-index: 1000;
+}
+.bottonLogo {
+  position: absolute;
+  position: fixed;
+  top: 1.5%;
+  left: 7%;
+  height: 72px;
+  width: 75px;
+  background-image: url(Img/img.png);
+  border: 2px solid #4adbef;
+  z-index: 1000;
+}
+
+.container {
+  text-align: center;
+  top: 20%;
+  left: 8%;
+  position: absolute;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(95, 106, 106, 0.7);
+  height: 70%;
+  width: 85%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+
+.title {
+  font-size: 38px;
+  font-family: "Poppins", sans-serif;
+  color: #ebbd07;
+  font-weight: bold;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-size: 29px;
+  line-height: 1.5;
+  color: #4adbef;
+  text-shadow: 1px 1px 1px #6182d0;
+}
+
+.pagQuienSoy {
+  height: 100vh;
+  background-image: url("Img/compusilla.png");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+}
+
+.containerPresentacionTitle {
+  text-align: center;
+  position: absolute;
+  border-radius: 15px;
+  padding: 20px;
+  height: 12%;
+  width: 50%;
+}
+
+.titlePresentacion {
+  position: absolute;
+  top: 115%;
+  left: 100%;
+  width: 40%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    118,
+    88,
+    39,
+    0.4
+  ); /* Fondo semi-transparente para hacer el texto más legible */
+  padding: 10px 70px; /* Ajusta el espaciado alrededor del texto según sea necesario */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(118, 88, 39, 0.1);
+  border: 2px solid #765827;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  line-height: 1.5;
+  color: #ecdfac;
+  text-shadow: 3px 1px 1px #000000;
+}
+.containerPresentacion {
+  text-align: center;
+  top: 127%;
+  left: 53%;
+  position: absolute;
+  border: 1px solid #ec1919;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(31, 33, 33, 0.7);
+  height: 70%;
+  width: 37%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+.textPresentacion {
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #ecdfac;
+  text-shadow: 1px 1px 1px #765827;
+}
+.fotoPresentacion {
+  text-align: center;
+  top: 129%;
+  left: 9%;
+  position: absolute;
+  border: 1pxsolid #000;
+  border-radius: 1px;
+  background-image: url(Img/mi\ foto.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  height: 48%;
+  width: 32%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+
+.fondoProyectos {
+  height: 100vh;
+  background-image: url("Img/proyectos.png");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+}
+.containerProyectos {
+  text-align: center;
+  position: absolute;
+  border-radius: 15px;
+  padding: 20px;
+  height: 7%;
+  width: 20%;
+}
+.titleProyectos {
+  position: absolute;
+  top: 217%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    236,
+    25,
+    25,
+    0.2
+  ); /* Fondo semi-transparente para hacer el texto más legible */
+  padding: 10px 70px; /* Ajusta el espaciado alrededor del texto según sea necesario */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(236, 25, 25, 0.3);
+  border: 1px solid #ec1919;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  line-height: 1.5;
+  color: #ecdfac;
+  text-shadow: 5px 1px 1px #000000;
+}
+
+.containerCarruselProyectos {
+  text-align: center;
+  top: 227%;
+  left: 35%;
+  position: absolute;
+  border: 1px solid #ec1919;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(31, 33, 33, 0.7);
+  height: 70%;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+
+.pagServicios {
+  height: 100vh;
+  background-image: url("Img/Servicios.png");
+  background-size: 230vh;
+  background-repeat: no-repeat;
+}
+
+.containerServicios {
+  text-align: center;
+  top: 315%;
+  left: 40%;
+  position: absolute;
+  border-radius: 15px;
+  padding: 20px;
+  height: 7%;
+  width: 20%;
+}
+.titleServicios {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    162,
+    235,
+    7,
+    0.3
+  ); /* Fondo semi-transparente para hacer el texto más legible */
+  padding: 10px 70px; /* Ajusta el espaciado alrededor del texto según sea necesario */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(162, 235, 7, 0.1);
+  border: 1px solid #a2eb07;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  line-height: 1.5;
+  color: #ecdfac;
+  text-shadow: 3px 1px 1px #000000;
+}
+
+.containerCarruselServicios {
+  text-align: center;
+  top: 327%;
+  left: 35%;
+  position: absolute;
+  border: 1px solid #a2eb07;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: rgba(31, 33, 33, 0.7);
+  height: 70%;
+  width: 30%;
+  box-shadow: 0 0 10px rgba(162, 235, 7, 0.1);
+}
+
+.fondoContacto {
+  height: 100vh;
+  background-image: url("Img/Contacto2.png");
+  background-size: cover;
+  background-color: #3f2893;
+  background-size: 230vh;
+  background-repeat: no-repeat;
+}
+.contenedorContacto {
+  text-align: center;
+  top: 414%;
+  left: 40%;
+  position: absolute;
+  border-radius: 15px;
+  padding: 20px;
+  height: 7%;
+  width: 20%;
+}
+
+.titleContacto {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    241,
+    241,
+    241,
+    0.3
+  ); /* Fondo semi-transparente para hacer el texto más legible */
+  padding: 10px 70px; /* Ajusta el espaciado alrededor del texto según sea necesario */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(241, 241, 241, 0.1);
+  border: 1px solid #f1f1f1;
+
+  top: 12%;
+  left: 50%;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  text-align: center;
+  line-height: 1.5;
+  color: #4adbef;
+  text-shadow: 3px 1px 1px #000000;
+}
+.containerContact1 {
+  text-align: left;
+  top: 424%;
+  left: 2%;
+  position: absolute;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(213, 218, 218, 0.2);
+  height: 45%;
+  width: 40%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+.icono {
+  height: 12%;
+  width: 10%;
+}
+
+.textoContacto {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #f1f1f1;
+  text-shadow: 1px 1px 1px #323231;
+  background-color: rgba(34, 35, 35, 0.3);
+  border-radius: 1%;
+}
+
+.containerContact2 {
+  text-align: left;
+  top: 431%;
+  left: 64%;
+  position: absolute;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: rgba(213, 218, 218, 0.1);
+  height: 31%;
+  width: 35%;
+  box-shadow: 0 0 10px rgba(95, 106, 106, 0.1);
+}
+.iconoInsta {
+  height: 14%;
+  width: 14%;
+}
+footer {
+  background-color: #3f2893;
+  color: #3f2893;
+  text-align: center;
+  padding: 20px;
+  margin-top: 0px;
+}
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+.logoGit img,
+.logoLocalizacion img {
+  max-width: 70px;
+  display: block;
+  margin: 0 90px;
+}
+.textoLogos {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #f1f1f1;
+  text-shadow: 2px 1px 1px #717171;
+}
